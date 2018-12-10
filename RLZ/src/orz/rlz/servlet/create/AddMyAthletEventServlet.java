@@ -30,7 +30,7 @@ public class AddMyAthletEventServlet extends HttpServlet {
         Connection conn = MyUtils.getStoredConnection(request);
  
         String[] paramNames = request.getParameterValues("myAthletId");
-System.out.println("Start: "+paramNames.toString());
+System.out.println("Start 3: "+paramNames.toString());
 
           for (int i = 0; i < paramNames.length; i++) {
                         String id = paramNames[i];   
