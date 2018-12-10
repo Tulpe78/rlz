@@ -1,0 +1,9 @@
+CREATE TABLE `rlz`.`athletes` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `last_name` VARCHAR(80) NULL,
+  `first_name` VARCHAR(80) NULL,
+  `year` INT NULL,
+  `gender` VARCHAR(1) NULL,
+  `contact_id` INT NULL,
+  `club_id` INT NULL,
+  PRIMARY KEY (`id`));
